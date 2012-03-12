@@ -48,7 +48,7 @@
                     $event.type = handleObj.origType;
                     $event.relatedTarget = $startSelectionEvent.target;
 					
-					$event.data = jQuery.extend(true, {}, eventData, {
+					$event.data = jQuery.extend(true, {}, $eventData, {
 						selectedText: currentlySelectedText
 					});
 
